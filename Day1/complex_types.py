@@ -111,16 +111,17 @@ another_set = {3, 4, 5, 6}
 # Intersection: Find common elements.
 
 
-# intersection_set = my_set.intersection(another_set)
+intersection_set = my_set.intersection(another_set)
 # Difference: Find elements in one set but not in another.
-# python
-# Copy code
-# difference_set = my_set.difference(another_set)
+
+difference_set = my_set.difference(another_set)
+
+
+
 # 5. Nested Data Structures
 # Python allows nesting of complex types, meaning you can have lists of lists, dictionaries of dictionaries, etc.
 
 # Example of Nested Structures
-# python
-# Copy code
-# nested_list = [[1, 2, 3], ['a', 'b', 'c']]
-# nested_dict = {'key1': {'subkey1': 1, 'subkey2': 2}, 'key2': [1, 2, 3]}
+
+nested_list = [[1, 2, 3], ['a', 'b', 'c']]
+nested_dict = {'key1': {'subkey1': 1, 'subkey2': 2}, 'key2': [1, 2, 3]}
