@@ -29,90 +29,88 @@ my_list.remove(3)
 # pop(): Remove an element by index and return it.
 
 item = my_list.pop(0)
+
 # extend(): Extend the list by appending elements from another list.
-# python
-# Copy code
-# my_list.extend([6, 7])
+
+my_list.extend([6, 7])
+
+
+
 # 2. Tuples
 # Tuples are ordered, immutable collections, meaning once they are created, they cannot be modified.
 
 # Creating Tuples
-# python
-# Copy code
-# my_tuple = (1, 2, 3, 'Python', 4.5)
+
+my_tuple = (1, 2, 3, 'Python', 4.5)
 # Accessing Tuple Elements
 # You can access elements in the same way as lists:
 
-# python
-# Copy code
-# print(my_tuple[0])  # Output: 1
-# print(my_tuple[-1]) # Output: 4.5
+
+print(my_tuple[0])  # Output: 1
+print(my_tuple[-1]) # Output: 4.5
+
 # Immutability
 # Tuples cannot be modified after creation:
 
-# python
-# Copy code
+
 # my_tuple[1] = 'changed'  # This will raise a TypeError
+
+
+
 # 3. Dictionaries
-# Dictionaries are unordered, mutable collections of key-value pairs. Keys must be unique and immutable, while values can be of any type.
+# Dictionaries are unordered, mutable collections of key-value pairs. Keys must be unique and immutable, 
+# while values can be of any type.
 
 # Creating Dictionaries
-# python
-# Copy code
-# my_dict = {'name': 'Eliezer', 'age': 25, 'language': 'Python'}
+
+my_dict = {'name': 'Eliezer', 'age': 25, 'language': 'Python'}
 # Accessing Dictionary Elements
 # You can access elements by key:
 
-# python
-# Copy code
-# print(my_dict['name'])  # Output: Eliezer
+
+print(my_dict['name'])  # Output: Eliezer
 # Modifying Dictionaries
 # You can add or modify elements:
 
-# python
-# Copy code
-# my_dict['age'] = 26
-# my_dict['city'] = 'Berlin'
+my_dict['age'] = 26
+my_dict['city'] = 'Berlin'
+
 # Dictionary Methods
 # keys(): Get all keys in the dictionary.
-# python
-# Copy code
-# print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'language', 'city'])
+
+print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'language', 'city'])
 # values(): Get all values in the dictionary.
-# python
-# Copy code
-# print(my_dict.values())  # Output: dict_values(['Eliezer', 26, 'Python', 'Berlin'])
+
+print(my_dict.values())  # Output: dict_values(['Eliezer', 26, 'Python', 'Berlin'])
+
 # items(): Get all key-value pairs.
-# python
-# Copy code
-# print(my_dict.items())  # Output: dict_items([('name', 'Eliezer'), ('age', 26), ('language', 'Python'), ('city', 'Berlin')])
+
+print(my_dict.items())  # Output: dict_items([('name', 'Eliezer'), ('age', 26), ('language', 'Python'), ('city', 'Berlin')])
 # get(): Safely access a key, providing a default value if the key doesn’t exist.
-# python
-# Copy code
-# print(my_dict.get('country', 'Unknown'))  # Output: Unknown
+
+print(my_dict.get('country', 'Unknown'))  # Output: Unknown
+
+
+
 # 4. Sets
 # Sets are unordered collections of unique elements, making them useful for eliminating duplicates.
 
 # Creating Sets
-# python
-# Copy code
-# my_set = {1, 2, 3, 'Python', 4.5}
+
+my_set = {1, 2, 3, 'Python', 4.5}
 # Modifying Sets
 # You can add or remove elements:
 
-# python
-# Copy code
-# my_set.add(5)
-# my_set.remove('Python')
+my_set.add(5)
+my_set.remove('Python')
 # Set Operations
 # Union: Combine two sets.
-# python
-# Copy code
-# another_set = {3, 4, 5, 6}
+
+another_set = {3, 4, 5, 6}
 # union_set = my_set.union(another_set)
 # Intersection: Find common elements.
-# python
-# Copy code
+
+
 # intersection_set = my_set.intersection(another_set)
 # Difference: Find elements in one set but not in another.
 # python
